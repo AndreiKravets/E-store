@@ -1,0 +1,66 @@
+.cta-block{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: left;
+    border-radius: 0.3rem;
+}
+.mask{
+    background-color: rgba(0, 0, 0, 0.56);
+    color: #007bff;
+}
+hr{
+    border-top: 1px solid rgb(0, 123, 255);
+}
+.catalog .catalog-item{
+    cursor: pointer;
+}
+
+
+
+.input{
+border:none;
+background-color: #D7E8F2;
+width:150px;
+border-radius: 10px;
+box-shadow:  inset 0 4px 4px #dadada;
+cursor:pointer;
+}
+
+
+
+
+
+.catalog .catalog-item:hover img{
+
+    clip-path: circle(50% at 50% 50%);
+    -webkit-clip-path: circle(50% at 50% 50%);
+}
+
+#how_much{
+    font:19px Georgia, sans-serif;
+}
+
+
+.price {
+  text-shadow: 1px 1px white,
+               2px 2px #777;
+  color: #333;
+  transition: all 1s;
+  }
+.price:hover {
+    text-shadow: 1px 1px white,
+                 2px 2px tomato;
+    color: crimson;
+    }
+ 
+#pagination {
+
+        margin-top :20px;
+        text-align:center;
+    }
+
+#pagination ul li{
+        display:inline;
+        margin: 5px;
+        cursor:pointer;
+    }
